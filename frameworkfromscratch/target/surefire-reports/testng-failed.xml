@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Academy.frameworkfromscratch.validateasserttrue">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Academy.frameworkfromscratch.validateasserttrue -->
+      <class name="Academy.frameworkfromscratch.Homepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="basepagenavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Academy.frameworkfromscratch.Homepage -->
+      <class name="Academy.frameworkfromscratch.validatetitle">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Academy.frameworkfromscratch.validatetitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

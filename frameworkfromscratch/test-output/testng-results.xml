@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62349" started-at="2018-09-15T19:44:36Z" finished-at="2018-09-15T19:45:39Z">
+    <groups>
+    </groups>
+    <test name="Homepage" duration-ms="28817" started-at="2018-09-15T19:44:36Z" finished-at="2018-09-15T19:45:05Z">
+      <class name="Academy.frameworkfromscratch.Homepage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Academy.frameworkfromscratch.Homepage@c730b35]" name="setup" is-config="true" duration-ms="4569" started-at="2018-09-15T19:44:36Z" finished-at="2018-09-15T19:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.frameworkfromscratch.Homepage@c730b35]" name="basepagenavigation" duration-ms="15109" started-at="2018-09-15T19:44:41Z" data-provider="getdata" finished-at="2018-09-15T19:44:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12333]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.frameworkfromscratch.Homepage@c730b35]" name="basepagenavigation" duration-ms="6744" started-at="2018-09-15T19:44:56Z" data-provider="getdata" finished-at="2018-09-15T19:45:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishal1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[467477]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.frameworkfromscratch.Homepage@c730b35]" name="teardown" is-config="true" duration-ms="2305" started-at="2018-09-15T19:45:03Z" finished-at="2018-09-15T19:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.frameworkfromscratch.Homepage -->
+    </test> <!-- Homepage -->
+    <test name="validatetestassert" duration-ms="12286" started-at="2018-09-15T19:45:05Z" finished-at="2018-09-15T19:45:18Z">
+      <class name="Academy.frameworkfromscratch.validateasserttrue">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Academy.frameworkfromscratch.validateasserttrue@229f66ed]" name="setup" is-config="true" duration-ms="10111" started-at="2018-09-15T19:45:05Z" finished-at="2018-09-15T19:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="assertionbbb()[pri:0, instance:Academy.frameworkfromscratch.validateasserttrue@229f66ed]" name="assertionbbb" duration-ms="77" started-at="2018-09-15T19:45:16Z" finished-at="2018-09-15T19:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertionbbb -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.frameworkfromscratch.validateasserttrue@229f66ed]" name="teardown" is-config="true" duration-ms="2094" started-at="2018-09-15T19:45:16Z" finished-at="2018-09-15T19:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.frameworkfromscratch.validateasserttrue -->
+    </test> <!-- validatetestassert -->
+    <test name="Test app" duration-ms="1" started-at="2018-09-15T19:45:18Z" finished-at="2018-09-15T19:45:18Z">
+    </test> <!-- Test app -->
+    <test name="Test calidation" duration-ms="21093" started-at="2018-09-15T19:45:18Z" finished-at="2018-09-15T19:45:39Z">
+      <class name="Academy.frameworkfromscratch.validatetitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Academy.frameworkfromscratch.validatetitle@6c284af]" name="setup" is-config="true" duration-ms="9497" started-at="2018-09-15T19:45:18Z" finished-at="2018-09-15T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basepag()[pri:0, instance:Academy.frameworkfromscratch.validatetitle@6c284af]" name="basepag" duration-ms="11415" started-at="2018-09-15T19:45:27Z" finished-at="2018-09-15T19:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepag -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.frameworkfromscratch.validatetitle@6c284af]" name="teardown" is-config="true" duration-ms="176" started-at="2018-09-15T19:45:39Z" finished-at="2018-09-15T19:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.frameworkfromscratch.validatetitle -->
+    </test> <!-- Test calidation -->
+  </suite> <!-- Suite -->
+</testng-results>

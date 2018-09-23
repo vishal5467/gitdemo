@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.frameworkfromscratch.listeners"/>
+  </listeners>
+  <test name="validatetestassert(failed)">
+    <classes>
+      <class name="Academy.frameworkfromscratch.validateasserttrue">
+        <methods>
+          <include name="assertionbbb"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Academy.frameworkfromscratch.validateasserttrue -->
+    </classes>
+  </test> <!-- validatetestassert(failed) -->
+</suite> <!-- Failed suite [Suite] -->

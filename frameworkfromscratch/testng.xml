@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="Academy.frameworkfromscratch.listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+
+  <test name="Homepage">
+    <classes>
+      <class name="Academy.frameworkfromscratch.Homepage"/>
+       </classes>
+      </test>
+      
+      <test name="validatetestassert">
+    <classes>
+      <class name="Academy.frameworkfromscratch.validateasserttrue"/>
+       </classes>
+      </test>
+      
+       <test name="Test app">
+    <classes>
+      <class name="Academy.frameworkfromscratch.AppTest"/>
+      </classes>
+      </test>
+      
+       <test name="Test calidation">
+    <classes>
+      <class name="Academy.frameworkfromscratch.validatetitle"/>
+    </classes>
+      
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
